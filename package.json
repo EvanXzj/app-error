@@ -1,20 +1,25 @@
 {
-  "name": "app-errors",
+  "name": "customized-errors",
   "version": "1.0.0",
   "description": "custom app error",
   "main": "index.js",
   "scripts": {
-    "test": "echo success"
+
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/EvanXzj/app-error.git"
   },
-  "keywords": ["error"],
+  "keywords": [
+    "error"
+  ],
   "author": "chuidylan <chuidylan@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/EvanXzj/app-error/issues"
   },
-  "homepage": "https://github.com/EvanXzj/app-error#readme"
+  "homepage": "https://github.com/EvanXzj/app-error#readme",
+  "dependencies": {
+    "statuses": "^1.5.0"
+  }
 }
