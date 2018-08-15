@@ -11,7 +11,9 @@
     "url": "git+https://github.com/EvanXzj/app-error.git"
   },
   "keywords": [
-    "error"
+    "error",
+    "customized-errors",
+    "customized"
   ],
   "author": "chuidylan <chuidylan@gmail.com>",
   "license": "MIT",

@@ -17,7 +17,6 @@ yarn add customized-errors
 npm test
 
 # or with yarn 
-
 yarn run test
 ```
 
