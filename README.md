@@ -11,15 +11,25 @@ npm install customized-errors
 yarn add customized-errors
 ```
 
+## Test
+
+```bash
+npm test
+
+# or with yarn 
+
+yarn run test
+```
+
 ## usage
 
 ```js
 const {TooManyRequestsError} = require('./error')
 
 try {
-    throw new TooManyRequestsError({message: 'You have exceeded your API rate limit', type: 'E_EXCEEDED_API_RATE_LIMIT', detail:{limitCounts: 100, currentRequestCounts: 101})
+    throw new TooManyRequestsError({message: 'You have exceeded your API rate limit', type: 'E_EXCEEDED_API_RATE_LIMIT', details:{limitCounts: 100, currentRequestCounts: 101}})
 } catch (error) {
-    console.error(error.)
+    console.error(error.message)
     console.log()
     console.error(error)
 }
