@@ -3,7 +3,7 @@ custom app error
 
 ## install
 
-```bash 
+```bash
 # npm
 npm install customized-errors
 
@@ -17,7 +17,7 @@ yarn add customized-errors
 const {TooManyRequestsError} = require('./error')
 
 try {
-    throw new TooManyRequestsError({message: 'You have exceeded your API rate limit', type: 'E_EXCEEDED_API_RATE_LIMIT', detail:{limitCounts: 100, currentRequestCounts: 101})  
+    throw new TooManyRequestsError({message: 'You have exceeded your API rate limit', type: 'E_EXCEEDED_API_RATE_LIMIT', detail:{limitCounts: 100, currentRequestCounts: 101})
 } catch (error) {
     console.error(error.)
     console.log()
